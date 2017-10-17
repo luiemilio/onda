@@ -23,7 +23,7 @@ plugins = plugins.concat(
 
 module.exports = {
   context: __dirname,
-  entry: "./lib/wave.jsx",
+  entry: "./lib/onda.jsx",
   output: {
     filename: "bundle.js"
   },

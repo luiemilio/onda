@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Switch, NavLink, Link } from 'react-router-dom';
-import waveDisplay from './waveDisplay.jsx';
+import amp from './amp.jsx';
 
 const App = () => (
   <div>
     <Switch>
-      <Route exact path="/" component={waveDisplay}/>
+      <Route exact path="/" component={amp}/>
     </Switch>
   </div>
 );
